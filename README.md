@@ -1,6 +1,6 @@
 # Laravel Authentication
 
-![Laravel Authentication](https://github.com/user-attachments/assets/863221ec-335d-4697-afbb-a6c763e782e2)
+![Laravel Authentication](https://github.com/user-attachments/assets/750e0ca3-cccd-4bc7-861e-da719fd02718)
 
 
 This repository contains the **step-by-step source code** for the **Laravel Authentication Series** on YouTube. Each folder corresponds to a video, allowing you to follow the project's progress **from start to finish**.  
@@ -46,24 +46,44 @@ This structure allows you to follow along **step by step** and see the project's
 1. Clone the repository:  
    ```bash
    git clone https://github.com/Abdogoda/Laravel-Authentication.git
-   ```  
-2. Navigate to a specific folder based on the video you're following.  
+   ```
+
+2. Navigate to any folder you want in the repository, for example:  
+   ```bash
+   cd Laravel-Authentication/01_login_register_logout
+   ```
+
 3. Install dependencies:  
    ```bash
    composer install
-   ```  
-4. Configure `.env` and run migrations:  
+   ```
+
+4. Set up configurations:  
    ```bash
-   php artisan migrate --seed
-   ```  
-5. Start the development server:  
+   cp .env.example .env
+   ```
+
+5. Generate App Key
+   ```bash
+   php artisan key:generate
+   ```
+
+6. Set up the database (SQLITE):  
+   ```bash
+   php artisan migrate
+   ```
+
+7. Start the development server:  
    ```bash
    php artisan serve
-   ```  
+   ```
+
+8. Access the app in your browser at `http://localhost:8000`.
+
 
 ## 🔗 Connect & Follow  
 - **GitHub:** [@Abdogoda](https://github.com/Abdogoda)  
-- **YouTube:** *(Replace with your channel link)*  
+- **YouTube:** [@Abdulrhman-Goda](https://www.youtube.com/@Abdulrhman-Goda)
 
 This repository is **continuously updated** as new videos are released. **Star this repo** ⭐ to stay updated! 🚀  
 ```
