@@ -1,4 +1,5 @@
 # Laravel Authentication - **Video 03: Reset Password** 🔑
+![thumbnail](images/thumbnail.png)  
 
 ## Overview 🌟
 
@@ -19,16 +20,16 @@ This video covers the essential steps to enable users to recover their passwords
 Here are the designs for the **Forgot Password**, **Reset Password**, and **Email** pages:
 
 1. **Login Page**  
-    ![login](https://github.com/user-attachments/assets/b685bcc2-d118-4ad5-9f9c-b7650f0e4ad9)
+    ![login](images/login.png)
 
 2. **Forgot Password Page**  
-    ![forgot-password](https://github.com/user-attachments/assets/3afa5f6f-fc0c-45a8-bd24-ed4224476a40)
+    ![forgot-password](images/forgot-password)
 
 3. **Reset Password Page**  
-    ![reset-password](https://github.com/user-attachments/assets/5a82fb68-768a-4128-ad68-d2ddc5d6a4eb)
+    ![reset-password](images/reset-password)
 
 4. **Email Page**  
-    ![reset-password-email](https://github.com/user-attachments/assets/5db80e4b-629e-4edf-b1ad-c2b245e0e3f6)
+    ![reset-password-email](images/reset-password-email)
 
 ---
 

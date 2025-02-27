@@ -10,7 +10,7 @@
 </head>
 <body class="bg-gray-900 text-gray-200">
     <div class="container mx-auto mt-10">
-        <div class="d-flex justify-between align-center">
+        <div class="flex justify-between align-center">
           <h1 class="text-3xl font-bold mb-6">Edit Profile</h1>
           <form action="{{route('logout')}}" method="post">
             @csrf

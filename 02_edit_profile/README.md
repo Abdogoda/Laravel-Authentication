@@ -1,4 +1,5 @@
 # Laravel Authentication - **Video 02: Edit Profile - Change Password** 📝
+![thumbnail](images/thumbnail.png)  
 
 ## Overview 🌟
 

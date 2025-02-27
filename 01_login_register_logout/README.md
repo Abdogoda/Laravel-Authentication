@@ -1,4 +1,5 @@
 # Laravel Authentication - **Video 01: Login, Register, Logout** 🚀
+![thumbnail](images/thumbnail.png)  
 
 ## Overview 🌟
 
@@ -21,16 +22,16 @@ This video introduces essential Laravel authentication concepts and lays the gro
 Here are the designs for the **Login**, **Register**, **Profile**, and **Home** pages:
 
 1. **Home Page**  
-   ![home-page](https://github.com/user-attachments/assets/a3a3a838-612f-4826-a7be-8a5832a1946d)  
+   ![home-page](images/home.png)  
 
 2. **Login Page**  
-   ![login](https://github.com/user-attachments/assets/319803f2-9743-4443-8cbb-2ee5a81b63ef)  
+   ![login](images/login.png)  
 
 3. **Register Page**  
-   ![register](https://github.com/user-attachments/assets/939e0431-ed01-4d3b-a932-c6f117ad32c5)  
+   ![register](images/register.png)  
 
 4. **Profile Page**  
-   ![profile](https://github.com/user-attachments/assets/9b326027-b802-4264-a0e0-d16a4b8a2023)  
+   ![profile](images/profile.png)  
 
 ---
 

@@ -1,4 +1,5 @@
 # Laravel Authentication - **Video 04: Email Verification** 📧
+![thumbnail](images/thumbnail.png)  
 
 ## Overview 🌟
 
@@ -19,13 +20,13 @@ The goal is to ensure users verify their email addresses before proceeding with 
 Here are the designs related to the **Email Verification** page:
 
 - **Email Verification Mail**  
-    ![verify-email-mail](https://github.com/user-attachments/assets/643dfc90-6cb8-4bd2-8a77-c5e31e388f85)
+    ![verify-email-mail](images/verify-email-mail.png)
     
 - **Email Verification Page**  
-    ![verify-email](https://github.com/user-attachments/assets/e28bfb44-6fcb-410b-aa94-43299bbd88bc)
+    ![verify-email](images/verify-email.png)
 
 - **Login Page**  
-    ![login](https://github.com/user-attachments/assets/da2e25c1-47bc-4932-8f1c-203b13442d8b)
+    ![login](images/login.png)
 
 ---
 
