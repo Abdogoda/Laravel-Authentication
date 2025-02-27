@@ -86,6 +86,3 @@ This structure allows you to follow along **step by step** and see the project's
 - **YouTube:** [@Abdulrhman-Goda](https://www.youtube.com/@Abdulrhman-Goda)
 
 This repository is **continuously updated** as new videos are released. **Star this repo** ⭐ to stay updated! 🚀  
-```
-
-This **README.md** is **structured, professional, and detailed** while keeping it easy to read. Let me know if you need any modifications! 😊
