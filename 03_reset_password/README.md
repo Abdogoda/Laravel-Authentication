@@ -23,13 +23,13 @@ Here are the designs for the **Forgot Password**, **Reset Password**, and **Emai
     ![login](images/login.png)
 
 2. **Forgot Password Page**  
-    ![forgot-password](images/forgot-password)
+    ![forgot-password](images/forgot-password.png)
 
 3. **Reset Password Page**  
-    ![reset-password](images/reset-password)
+    ![reset-password](images/reset-password.png)
 
 4. **Email Page**  
-    ![reset-password-email](images/reset-password-email)
+    ![reset-password-email](images/reset-password-email.png)
 
 ---
 
