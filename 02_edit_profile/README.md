@@ -195,4 +195,4 @@ public function rules(): array{
 ## Next Steps ▶️
 
 In the next video, we'll expand on these features by resetting the password functionality.  
-🎥 **Watch the full playlist here:** [Laravel Authentication](<insert-playlist-link-here>)  
+🎥 **Watch the full playlist here:** [Laravel Authentication](https://youtube.com/playlist?list=PLBy71Vfd0SzVaLjezaxqjnSsK8_p_aTcp&si=p3DluiMX7-euuw3A)  

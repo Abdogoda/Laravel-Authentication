@@ -276,4 +276,4 @@ class VerifyAccountMail extends Mailable {
 
 Once the email is verified, users will be able to log in. In the next video, we will focus on the **Socialist Authentication** functionality specificly with Google.
 
-🎥 **Watch the full playlist here:** [Laravel Authentication](<insert-playlist-link-here>)
+🎥 **Watch the full playlist here:** [Laravel Authentication](https://youtube.com/playlist?list=PLBy71Vfd0SzVaLjezaxqjnSsK8_p_aTcp&si=p3DluiMX7-euuw3A)

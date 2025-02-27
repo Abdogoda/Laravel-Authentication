@@ -1,6 +1,6 @@
 # Laravel Authentication
 
-![Laravel Authentication](https://github.com/user-attachments/assets/750e0ca3-cccd-4bc7-861e-da719fd02718)
+![Laravel Authentication](images/thumbnail.png)
 
 
 This repository contains the **step-by-step source code** for the **Laravel Authentication Series** on YouTube. Each folder corresponds to a video, allowing you to follow the project's progress **from start to finish**.  
@@ -39,7 +39,7 @@ Each folder represents a video in the playlist:
 This structure allows you to follow along **step by step** and see the project's evolution.  
 
 ## 📺 Watch the Playlist on YouTube  
-📌 [Laravel Authentication Series](#) *(Replace with actual YouTube link)*  
+📌 [Laravel Authentication Series](https://youtube.com/playlist?list=PLBy71Vfd0SzVaLjezaxqjnSsK8_p_aTcp&si=p3DluiMX7-euuw3A) *(Replace with actual YouTube link)*  
 
 ## 🚀 How to Use This Repo  
 
