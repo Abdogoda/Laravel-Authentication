@@ -19,8 +19,8 @@ This video introduces essential Laravel authentication concepts and lays the gro
 Here are the designs for the **Edit Profile** page:
 
 1. **Edit Profile Page**  
-   ![update-profile](https://github.com/user-attachments/assets/0af86ca0-005e-4bb8-8209-3847dbd2a983)
-   ![change-password](https://github.com/user-attachments/assets/327509ed-058a-4302-b882-bc9710942c4f)
+   ![update-profile](images/update-profile.png)
+   ![change-password](images/change-password.png)
 
 
 ---
