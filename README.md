@@ -32,7 +32,7 @@ This repository contains the **step-by-step source code** for the **Laravel Auth
 Each folder represents a video in the playlist:  
 📁 [00_introduction](https://github.com/Abdogoda/Laravel-Authentication/tree/main/00_introduction)  
 📁 [01_login_register_logout](https://github.com/Abdogoda/Laravel-Authentication/tree/main/01_login_register_logout)  
-📁 [02_edit_profile](https://github.com/Abdogoda/Laravel-Authentication/tree/main/02_edit_profile)  
+📁 [02_update_profile_change_password](https://github.com/Abdogoda/Laravel-Authentication/tree/main/02_update_profile_change_password)  
 📁 [03_reset_password](https://github.com/Abdogoda/Laravel-Authentication/tree/main/03_reset_password)  
 📁 [04_verify_email_with_otp](https://github.com/Abdogoda/Laravel-Authentication/tree/main/04_verify_email_with_otp)  
 

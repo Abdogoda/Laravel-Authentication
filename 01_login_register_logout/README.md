@@ -13,7 +13,7 @@ In this video, we implemented the foundational authentication features for a Lar
 
 This video introduces essential Laravel authentication concepts and lays the groundwork for more advanced features in the playlist.  
 
-🎥 **Watch the full video here:** [01: Login, Register, Logout - Laravel Authentication](<insert-video-link-here>)  
+🎥 **Watch the full video here:** [01: Login, Register, Logout - Laravel Authentication](https://youtu.be/HXSkVzfjoSw)  
 
 ---
 
