@@ -6,11 +6,10 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class LogoutController extends Controller
-{
-    public function __invoke(Request $request)
-    {
+class LogoutController extends Controller{
+
+    public function __invoke(Request $request){
         Auth::logout();
-        return redirect()->to('/')->with('success', 'Logged out successfully!');
+        return redirect()->to('/')->with('success', 'Logged out succesfully');
     }
 }

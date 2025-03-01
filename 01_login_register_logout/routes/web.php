@@ -13,7 +13,7 @@ Route::post('/register', RegisterController::class);
 Route::post('/login', LoginController::class);
 
 Route::middleware('auth')->group(function(){
-
   Route::view('/profile', 'auth.profile');
   Route::post('/logout', LogoutController::class)->name('logout');
+
 });
