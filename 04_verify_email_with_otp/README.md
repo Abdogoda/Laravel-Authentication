@@ -11,7 +11,7 @@ In this video, we focus on the **Email Verification** process for a Laravel appl
 
 The goal is to ensure users verify their email addresses before proceeding with any further actions in your application.
 
-🎥 **Watch the full video here:** [04: Email Verification - Laravel Authentication](<insert-video-link-here>)
+🎥 **Watch the full video here:** [04: Email Verification - Laravel Authentication](https://youtu.be/nf88CiWR8HE)
 
 ---
 
