@@ -35,6 +35,7 @@ Each folder represents a video in the playlist:
 📁 [02_update_profile_change_password](https://github.com/Abdogoda/Laravel-Authentication/tree/main/02_update_profile_change_password)  
 📁 [03_reset_password](https://github.com/Abdogoda/Laravel-Authentication/tree/main/03_reset_password)  
 📁 [04_verify_email_with_otp](https://github.com/Abdogoda/Laravel-Authentication/tree/main/04_verify_email_with_otp)  
+📁 [05_auth_with_google](https://github.com/Abdogoda/Laravel-Authentication/tree/main/05_auth_with_google)  
 
 This structure allows you to follow along **step by step** and see the project's evolution.  
 
