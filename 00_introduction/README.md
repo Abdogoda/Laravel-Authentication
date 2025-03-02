@@ -32,14 +32,17 @@ This repository contains the **step-by-step source code** for the **Laravel Auth
 Each folder represents a video in the playlist:  
 📁 [00_introduction](https://github.com/Abdogoda/Laravel-Authentication/tree/main/00_introduction)  
 📁 [01_login_register_logout](https://github.com/Abdogoda/Laravel-Authentication/tree/main/01_login_register_logout)  
-📁 [02_edit_profile](https://github.com/Abdogoda/Laravel-Authentication/tree/main/02_edit_profile)  
+📁 [02_update_profile_change_password](https://github.com/Abdogoda/Laravel-Authentication/tree/main/02_update_profile_change_password)  
 📁 [03_reset_password](https://github.com/Abdogoda/Laravel-Authentication/tree/main/03_reset_password)  
 📁 [04_verify_email_with_otp](https://github.com/Abdogoda/Laravel-Authentication/tree/main/04_verify_email_with_otp)  
+📁 [05_auth_with_google](https://github.com/Abdogoda/Laravel-Authentication/tree/main/05_auth_with_google)  
+📁 [06_auth_with_github](https://github.com/Abdogoda/Laravel-Authentication/tree/main/06_auth_with_github)  
+📁 [07_auth_with_facebook](https://github.com/Abdogoda/Laravel-Authentication/tree/main/07_auth_with_facebook)  
 
 This structure allows you to follow along **step by step** and see the project's evolution.  
 
 ## 📺 Watch the Playlist on YouTube  
-📌 [Laravel Authentication Series](https://youtube.com/playlist?list=PLBy71Vfd0SzVaLjezaxqjnSsK8_p_aTcp&si=p3DluiMX7-euuw3A) *(Replace with actual YouTube link)*  
+📌 [Laravel Authentication Series](https://youtube.com/playlist?list=PLBy71Vfd0SzVaLjezaxqjnSsK8_p_aTcp&si=p3DluiMX7-euuw3A)  
 
 ## 🚀 How to Use This Repo  
 
