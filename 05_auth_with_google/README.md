@@ -1,4 +1,4 @@
-# Laravel Authentication - **Video 05: Authentication With Google** 📧
+# Laravel Authentication - **Video 05: Authentication With Google**
 ![thumbnail](images/thumbnail.png)  
 
 ## Overview 🌟
@@ -10,7 +10,7 @@ In this video, we focus on the **Authentication With Google** process for a Lara
 
 The goal is to ensure that users can login and register with their Google accounts to provide more realism to your application.
 
-🎥 **Watch the full video here:** [05: Authentication With Google - Laravel Authentication](https://youtu.be/nf88CiWR8HE)
+🎥 **Watch the full video here:** [05: Authentication With Google - Laravel Authentication](https://youtu.be/l5-EOP8AgwI)
 
 ---
 
