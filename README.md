@@ -38,7 +38,7 @@ Each folder represents a video in the playlist:
 📁 [05_auth_with_google](https://github.com/Abdogoda/Laravel-Authentication/tree/main/05_auth_with_google)  
 📁 [06_auth_with_github](https://github.com/Abdogoda/Laravel-Authentication/tree/main/06_auth_with_github)  
 📁 [07_auth_with_facebook](https://github.com/Abdogoda/Laravel-Authentication/tree/main/07_auth_with_facebook)  
-📁 [08_enhance_socail_auth](https://github.com/Abdogoda/Laravel-Authentication/tree/main/08_enhance_socail_auth)  
+📁 [08_enhance_social_auth](https://github.com/Abdogoda/Laravel-Authentication/tree/main/08_enhance_social_auth)  
 📁 [09_passwordless_login](https://github.com/Abdogoda/Laravel-Authentication/tree/main/09_passwordless_login)  
 📁 [10_login_with_email_phone](https://github.com/Abdogoda/Laravel-Authentication/tree/main/10_login_with_email_phone)  
 
