@@ -38,7 +38,7 @@ Each folder represents a video in the playlist:
 📁 [05_auth_with_google](https://github.com/Abdogoda/Laravel-Authentication/tree/main/05_auth_with_google)  
 📁 [06_auth_with_github](https://github.com/Abdogoda/Laravel-Authentication/tree/main/06_auth_with_github)  
 📁 [07_auth_with_facebook](https://github.com/Abdogoda/Laravel-Authentication/tree/main/07_auth_with_facebook)  
-📁 [08_enhance_socail_auth](https://github.com/Abdogoda/Laravel-Authentication/tree/main/08_enhance_socail_auth)  
+📁 [08_enhance_social_auth](https://github.com/Abdogoda/Laravel-Authentication/tree/main/08_enhance_social_auth)  
 
 This structure allows you to follow along **step by step** and see the project's evolution.  
 
