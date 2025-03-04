@@ -17,8 +17,8 @@ The goal is to provide a secure way to deal with the user devices in your applic
 
 Here are the designs related to the **Logout from other devices**:
 
-- **Login Page**  
-    ![login](images/login.png)
+- **Profile Page**  
+    ![profile](images/profile.png)
 
 ---
 

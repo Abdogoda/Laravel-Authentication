@@ -17,8 +17,11 @@ The goal is to provide different ways to verify your application.
 
 Here are the designs related to the **Verify Phone With OTP**:
 
-- **Login Page**  
-    ![login](images/login.png)
+- **Verify Account Page**  
+    ![Verify account](images/verify_account.png)
+
+- **Verification Methods Page**  
+    ![Verification methods](images/verification_methods.png)
 
 ---
 
