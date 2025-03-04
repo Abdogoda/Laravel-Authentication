@@ -44,6 +44,7 @@ Each folder represents a video in the playlist:
 📁 [11_verify_phone_with_otp](https://github.com/Abdogoda/Laravel-Authentication/tree/main/11_verify_phone_with_otp)  
 📁 [12_logout_from_other_devices](https://github.com/Abdogoda/Laravel-Authentication/tree/main/12_logout_from_other_devices)  
 📁 [13_browser_sessions](https://github.com/Abdogoda/Laravel-Authentication/tree/main/13_browser_sessions)  
+📁 [14_remember_me](https://github.com/Abdogoda/Laravel-Authentication/tree/main/14_remember_me)  
 
 This structure allows you to follow along **step by step** and see the project's evolution.  
 

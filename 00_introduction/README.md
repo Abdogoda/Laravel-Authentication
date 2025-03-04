@@ -1,6 +1,6 @@
 # Laravel Authentication
 
-![Laravel Authentication](images/thumbnail.png)
+![Laravel Authentication](00_introduction/images/thumbnail.png)
 
 
 This repository contains the **step-by-step source code** for the **Laravel Authentication Series** on YouTube. Each folder corresponds to a video, allowing you to follow the project's progress **from start to finish**.  
@@ -38,6 +38,13 @@ Each folder represents a video in the playlist:
 📁 [05_auth_with_google](https://github.com/Abdogoda/Laravel-Authentication/tree/main/05_auth_with_google)  
 📁 [06_auth_with_github](https://github.com/Abdogoda/Laravel-Authentication/tree/main/06_auth_with_github)  
 📁 [07_auth_with_facebook](https://github.com/Abdogoda/Laravel-Authentication/tree/main/07_auth_with_facebook)  
+📁 [08_enhance_social_auth](https://github.com/Abdogoda/Laravel-Authentication/tree/main/08_enhance_social_auth)  
+📁 [09_passwordless_login](https://github.com/Abdogoda/Laravel-Authentication/tree/main/09_passwordless_login)  
+📁 [10_login_with_email_phone](https://github.com/Abdogoda/Laravel-Authentication/tree/main/10_login_with_email_phone)  
+📁 [11_verify_phone_with_otp](https://github.com/Abdogoda/Laravel-Authentication/tree/main/11_verify_phone_with_otp)  
+📁 [12_logout_from_other_devices](https://github.com/Abdogoda/Laravel-Authentication/tree/main/12_logout_from_other_devices)  
+📁 [13_browser_sessions](https://github.com/Abdogoda/Laravel-Authentication/tree/main/13_browser_sessions)  
+📁 [14_remember_me](https://github.com/Abdogoda/Laravel-Authentication/tree/main/14_remember_me)  
 
 This structure allows you to follow along **step by step** and see the project's evolution.  
 
