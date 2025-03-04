@@ -19,10 +19,6 @@ Here are the designs related to the **Browser Sessions**:
 
 - **Profile Page**  
     ![profile](images/profile.png)
-
-- **Profile Page From Phone**  
-    ![profile-from-phone](images/profile_phone.jpg)
-
 ---
 
 ## Folder Structure 📁
