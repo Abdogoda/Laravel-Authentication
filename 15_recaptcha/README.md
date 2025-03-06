@@ -49,14 +49,15 @@ Here is the folder structure for the relevant parts of the **Recaptcha** process
  │              ├── ChangePasswordRequest.php
  │              ├── ForgotPasswordRequest.php
  │              ├── ResetPasswordRequest.php
- │              ├── VerifyAccountRequest.php
- │              └── SendVerificationOtpRequest.php
+ │              └── VerifyAccountRequest.php
  ├── 📂 Mail
  │    ├── SendResetLinkMail.php
  │    ├── VerifyAccountMail.php
  │    └── SendMagicLinkMail.php
- └── 📂 Services
-      └── PhoneVerificationService.php
+ ├── 📂 Services
+ │    └── PhoneVerificationService.php
+ └── 📂 Rules
+      └── RecaptchaV3Rule.php
 📂 resources
  └── 📂 views
       ├── 📂 auth
@@ -65,7 +66,8 @@ Here is the folder structure for the relevant parts of the **Recaptcha** process
       │    ├── forgot-password.blade.php
       │    ├── reset-password.blade.php
       │    ├── profile.blade.php
-      │    └── verify-email.blade.php
+      │    ├── verify-email.blade.php
+      │    └── passwordless-login.blade.php
       ├── 📂 emails
       │    ├── reset-password.blade.php
       │    ├── verify-account.blade.php

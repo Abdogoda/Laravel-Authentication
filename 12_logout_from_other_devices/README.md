@@ -49,8 +49,7 @@ Here is the folder structure for the relevant parts of the **Logout from other d
  │              ├── ChangePasswordRequest.php
  │              ├── ForgotPasswordRequest.php
  │              ├── ResetPasswordRequest.php
- │              ├── VerifyAccountRequest.php
- │              └── SendVerificationOtpRequest.php
+ │              └── VerifyAccountRequest.php
  ├── 📂 Mail
  │    ├── SendResetLinkMail.php
  │    ├── VerifyAccountMail.php
@@ -65,7 +64,8 @@ Here is the folder structure for the relevant parts of the **Logout from other d
       │    ├── forgot-password.blade.php
       │    ├── reset-password.blade.php
       │    ├── profile.blade.php
-      │    └── verify-email.blade.php
+      │    ├── verify-email.blade.php
+      │    └── passwordless-login.blade.php
       ├── 📂 emails
       │    ├── reset-password.blade.php
       │    ├── verify-account.blade.php
