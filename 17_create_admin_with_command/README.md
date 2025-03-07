@@ -26,9 +26,8 @@ Here is the folder structure for the relevant parts of the **Create Admin With C
 ```
 📂 app
  ├── 📂 Http
- │    └── 📂 Commands
- │         └── CreateAdminCommand.php
- ├── 📂 Http
+ │    ├── 📂 Commands
+ │    │     └── CreateAdminCommand.php
  │    ├── 📂 Controllers
  │    │    └── Auth
  │    │        ├── LoginController.php
