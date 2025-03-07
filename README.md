@@ -48,6 +48,7 @@ Each folder represents a video in the playlist:
 📁 [15_recaptcha](https://github.com/Abdogoda/Laravel-Authentication/tree/main/15_recaptcha)  
 📁 [16_role_based_authentication](https://github.com/Abdogoda/Laravel-Authentication/tree/main/16_role_based_authentication)  
 📁 [17_create_admin_with_command](https://github.com/Abdogoda/Laravel-Authentication/tree/main/17_create_admin_with_command)  
+📁 [18_roles_and_users_crud](https://github.com/Abdogoda/Laravel-Authentication/tree/main/18_roles_and_users_crud)  
 
 This structure allows you to follow along **step by step** and see the project's evolution.  
 
