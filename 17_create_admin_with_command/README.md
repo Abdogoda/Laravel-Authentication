@@ -1,33 +1,33 @@
-# Laravel Authentication - **Video 16: Role Based Authentication**
+# Laravel Authentication - **Video 17: Create Admin With Command**
 ![thumbnail](images/thumbnail.png)  
 
 ## Overview 🌟
 
-In this video, we focus on applying the **Role Based Authentication** functionality for a Laravel application. 
+In this video, we focus on applying the **Create Admin With Command** functionality for a Laravel application. 
 
-The goal is to implement Role-Based Authentication to secure different sections of our Laravel application based on user roles like Admin, Teacher, and Student.
+The goal is to create an admin account using the command to make the application secure and pervent anyone to create the admin account unless the owner of the website.
 
-🎥 **Watch the full video here:** [16: Role Based Authentication - Laravel Authentication](https://youtu.be/Vp6cUHrJU18)
+🎥 **Watch the full video here:** [17: Create Admin With Command - Laravel Authentication](https://youtu.be/lYSe1lbKeqs)
 
 ---
 
 ## UI Design 🎨
 
-Here are the designs related to the **Role Based Authentication**:
+Here are the designs related to the **Create Admin With Command**:
 
-- **Register Page**  
-    ![Register](images/register.png)
-
-- **Role Page**  
-    ![Role Page](images/role_page.png)
+- **Command**  
+    ![Command](images/command.png)
 ---
 
 ## Folder Structure 📁
 
-Here is the folder structure for the relevant parts of the **Role Based Authentication** process:
+Here is the folder structure for the relevant parts of the **Create Admin With Command** process:
 
 ```
 📂 app
+ ├── 📂 Http
+ │    └── 📂 Commands
+ │         └── CreateAdminCommand.php
  ├── 📂 Http
  │    ├── 📂 Controllers
  │    │    └── Auth
@@ -120,82 +120,66 @@ Below is the list of all relevant routes, including the **Email Verification** r
 
 ## Implementation Details 🛠️
 
-### **Database** 📑
+### **Commands** 📑
 
-#### `add_role_to_users_table`
+#### `CreateAdminCommand`
 
-The **add_role_to_users_table** 
-
-```php
-Schema::table('users', function (Blueprint $table) {
-  $table->enum('role', ['student', 'teacher', 'admin'])->default('student');
-});
-```
-
-and then run 
-```bash
- php artisan migrate
-```
----
-
-### **Controllers** ⚙
-
-#### `LoginController`
-
-The **LoginController** redirect to the corresponding protected page to the user's role.
+The **CreateAdminCommand** creates an admin using the admin role.
 
 ```php
-class LoginController extends Controller{
-
-  public function __invoke(LoginRequest $request){
-    $user = ; // Get the user
-
-    Auth::login($user, $request->filled('remember'));
-    
-    $urls = [
-        'student' => '/student',
-        'teacher' => '/teacher',
-        'admin' => '/admin',
-    ];
-
-    return redirect()->intended($urls[$user->role] ?? '/profile')->with('success', 'You are in');
-  }
-}
-```
----
-
-### **Middleware** 🛡
-
-#### `RoleMiddleware`
-
-The **RoleMiddleware** checks if the authenticated user has the specified role or abort him unauthorized.
-
-```php
-class RoleMiddleware{
-    
-  public function handle(Request $request, Closure $next, string $role): Response{
-    if(Auth::user()->role != $role) abort(403, 'Unauthorized action');
-    return $next($request);
-  }
-}
-```
-
-And here is how to use it in the *route.php* file:
-```php
-Route::middleware(['auth', 'auth.session'])->group(function(){
+class CreateAdminCommand extends Command{
   
-  //  PAGE ROUTES 
-  Route::view('student', 'pages.student')->middleware('role:student');
-  Route::view('teacher', 'pages.teacher')->middleware('role:teacher');
-  Route::view('admin', 'pages.admin')->middleware('role:admin');
-});
+  protected $signature = 'create:admin';
+
+  protected $description = 'This command creates an admin user';
+
+  public function handle(){
+
+    $name = $this->ask('What is the admin name?');
+    $email = $this->ask('What is the admin email?');
+    $password = $this->ask('What is the admin password?');
+
+    $validator = Validator::make([
+      'name' => $name,
+      'email' => $email,
+      'password' => $password
+    ], [
+      'name' => 'required|string|max:255',
+      'email' => 'required|string|email|unique:users,email',
+      'password' => 'required|string|min:6'
+    ]);
+
+    if($validator->fails()){
+      foreach($validator->errors()->all() as $error){
+        $this->error($error);
+      }
+      return;
+    }
+
+    $user = User::create([
+      'name' => $name,
+      'email' => $email,
+      'role' => 'admin',
+      'email_verified_at' => now(),
+      'password' => Hash::make($password),
+      'otp' => rand(100000, 999999)
+    ]);
+    $this->info('Admin '. $name .' created successfully');
+  }
+}
+
+```
+
+and then run the command:
+```bash
+ php artisan create:admin
 ```
 ---
 
 
 ## Key Features ✨
 
-- **Role Based Authentication Flow**: Add role to the users table and perform authorization.  
+- **Create Admin With Command Flow**: Creates the admin account using command.  
 - **Controller Design**: Modular controllers to handle the authentication process process.  
 - **Flash Messages**: User feedback for successful or failed actions.  
 
@@ -206,7 +190,7 @@ Route::middleware(['auth', 'auth.session'])->group(function(){
 1. Clone the repository:  
    ```bash
    git clone https://github.com/Abdogoda/Laravel-Authentication.git
-   cd Laravel-Authentication/16_role_based_authentication
+   cd Laravel-Authentication/17_create_admin_with_command
    ```
 
 2. Install dependencies:  
@@ -241,5 +225,5 @@ Route::middleware(['auth', 'auth.session'])->group(function(){
 
 ## Next Steps ▶️
 
-In the next video, we'll expand this series's features by talking about how to create admin user with an admin role using commands.  
+In the next video, we'll expand this series's features by talking about role permission based authentication.  
 🎥 **Watch the full playlist here:** [Laravel Authentication](https://youtube.com/playlist?list=PLBy71Vfd0SzVaLjezaxqjnSsK8_p_aTcp&si=p3DluiMX7-euuw3A)
