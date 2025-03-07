@@ -77,10 +77,6 @@ Here is the folder structure for the relevant parts of the **Roles and Users CRU
  │    └── SendMagicLinkMail.php
  ├── 📂 Services
  │    └── PhoneVerificationService.php
- ├── 📂 Models
- │    ├── Role.php
- │    ├── Session.php
- │    └── User.php
  └── 📂 Rules
       └── RecaptchaV3Rule.php
 📂 resources

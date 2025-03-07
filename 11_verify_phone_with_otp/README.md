@@ -23,6 +23,9 @@ Here are the designs related to the **Verify Phone With OTP**:
 - **Verification Methods Page**  
     ![Verification methods](images/verification_methods.png)
 
+- **Verify Account Message**  
+    ![Verification Message](images/verify_account_message.jpg)
+
 ---
 
 ## Folder Structure 📁

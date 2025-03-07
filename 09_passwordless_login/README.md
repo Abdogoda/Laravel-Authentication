@@ -20,6 +20,9 @@ Here are the designs related to the **Passwordless Login**:
 - **Login Page**  
     ![login](images/login.png)
 
+- **Passwordless Login Mail**  
+    ![login mail](images/passwordless_login_mail.png)
+
 ---
 
 ## Folder Structure 📁
