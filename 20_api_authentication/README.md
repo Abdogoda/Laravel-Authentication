@@ -56,13 +56,10 @@ Below is the folder structure relevant to this video:
  │    └── User.php
 📂 resources
  └── 📂 views
-      ├── 📂 auth
-      │    ├── login.blade.php
-      │    ├── register.blade.php
-      │    └── profile.blade.php
       └── index.blade.php
 📂 routes
- └── web.php
+ ├── web.php
+ └── api.php
 ```
 
 ---
@@ -77,7 +74,7 @@ Here is a summary of the routes in the *api.php* used in this video:
 | `POST`          | `/login`        | `AuthenticationController` | Guest     | Handle login submissions.         |
 | `POST`          | `/register`     | `AuthenticationController` | Guest     | Handle registration submissions.  |
 | `POST`          | `/logout`       | `AuthenticationController` | Auth      | Log out the user.                 |
-| `GET`           | `/profile`      | `AuthenticationController` | Auth      | Display the profile info (auth).  |
+| `GET`           | `/profile`      | `AuthenticationController` | Auth      | Return the profile info.          |
 
 ---
 
