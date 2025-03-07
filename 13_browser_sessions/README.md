@@ -49,6 +49,9 @@ Here is the folder structure for the relevant parts of the **Browser Sessions** 
  │              ├── ForgotPasswordRequest.php
  │              ├── ResetPasswordRequest.php
  │              └── VerifyAccountRequest.php
+ ├── 📂 Models
+ │    ├── User.php
+ │    └── Session.php
  ├── 📂 Mail
  │    ├── SendResetLinkMail.php
  │    ├── VerifyAccountMail.php

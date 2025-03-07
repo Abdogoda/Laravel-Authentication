@@ -67,6 +67,10 @@ Here is the folder structure for the relevant parts of the **Roles and Users CRU
  │              ├── ForgotPasswordRequest.php
  │              ├── ResetPasswordRequest.php
  │              └── VerifyAccountRequest.php
+ ├── 📂 Models
+ │    ├── User.php
+ │    ├── Role.php
+ │    └── Session.php
  ├── 📂 Mail
  │    ├── SendResetLinkMail.php
  │    ├── VerifyAccountMail.php

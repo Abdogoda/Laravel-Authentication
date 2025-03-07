@@ -45,6 +45,8 @@ Below is the folder structure relevant to this video:
  │              ├── RegisterRequest.php
  │              ├── UpdateProfileRequest.php
  │              └── ChangePasswordRequest.php
+ ├── 📂 Models
+ │    └── User.php
 📂 resources
  └── 📂 views
       ├── 📂 auth

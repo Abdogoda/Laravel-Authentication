@@ -50,6 +50,8 @@ Here is the folder structure for the relevant parts of the **Logout from other d
  │              ├── ForgotPasswordRequest.php
  │              ├── ResetPasswordRequest.php
  │              └── VerifyAccountRequest.php
+ ├── 📂 Models
+ │    └── User.php
  ├── 📂 Mail
  │    ├── SendResetLinkMail.php
  │    ├── VerifyAccountMail.php

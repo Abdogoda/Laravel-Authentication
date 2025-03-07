@@ -57,6 +57,8 @@ Below is the folder structure relevant to this video:
  │              ├── ChangePasswordRequest.php
  │              ├── ForgotPasswordRequest.php
  │              └── ResetPasswordRequest.php
+ ├── 📂 Models
+ │    └── User.php
  └── 📂 Mail
       └── SendResetLinkMail.php
 📂 resources

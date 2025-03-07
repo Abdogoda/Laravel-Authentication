@@ -54,6 +54,8 @@ Here is the folder structure for the relevant parts of the **Verify Phone With O
  │              ├── ResetPasswordRequest.php
  │              ├── VerifyAccountRequest.php
  │              └── SendVerificationOtpRequest.php
+ ├── 📂 Models
+ │    └── User.php
  ├── 📂 Mail
  │    ├── SendResetLinkMail.php
  │    ├── VerifyAccountMail.php

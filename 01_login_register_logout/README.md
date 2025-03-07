@@ -51,6 +51,8 @@ Below is the folder structure relevant to this video:
  │         └── Auth
  │              ├── LoginRequest.php
  │              └── RegisterRequest.php
+ ├── 📂 Models
+ │    └── User.php
 📂 resources
  └── 📂 views
       ├── 📂 auth
