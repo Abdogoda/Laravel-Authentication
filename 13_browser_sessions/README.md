@@ -134,6 +134,69 @@ class LogoutController extends Controller{
 ```
 ---
 
+### **Models** 🖇
+
+#### `Session`
+
+The **Session** model to the sessions table.
+
+```php
+
+class Session extends Model{
+
+   protected $table = 'sessions';
+
+   public $incrementing = false;
+
+   protected $fillable = [
+      'id',
+      'user_id',
+      'ip_address',
+      'user_agent',
+      'payload',
+      'last_activity',
+   ];
+
+   public function getLastActivityAttribute($value): string{
+      return Carbon::createFromTimestamp($value)->diffForHumans();
+   }
+
+   public function getUserAgentAttribute($value): array{
+      $agent = new Agent();
+      $agent->setUserAgent($value);
+      return [
+         'platform' => $agent->platform(),
+         'browser' => $agent->browser(),
+         'is_desktop' => $agent->isDesktop()
+      ];
+   }
+
+   public function getIsThisDeviceAttribute(): bool{
+      return $this->id == request()->session()->getId();
+   }
+
+   protected $hidden = ['payload'];
+   protected $appends = ['is_this_device'];
+}
+
+```
+---
+#### `User`
+
+The **User** model to the users table with the *BelongsToMany* relationship to the sessions table.
+
+```php
+
+class User extends Authenticatable{
+
+   public function sessions(): HasMany{
+      return $this->hasMany(Session::class);
+   }
+}
+
+```
+---
+
 
 ## Key Features ✨
 
