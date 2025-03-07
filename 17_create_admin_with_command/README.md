@@ -225,5 +225,5 @@ and then run the command:
 
 ## Next Steps ▶️
 
-In the next video, we'll expand this series's features by talking about role permission based authentication.  
+In the next video, we'll expand this series's features by talking about roles and users CRUD operations.  
 🎥 **Watch the full playlist here:** [Laravel Authentication](https://youtube.com/playlist?list=PLBy71Vfd0SzVaLjezaxqjnSsK8_p_aTcp&si=p3DluiMX7-euuw3A)
