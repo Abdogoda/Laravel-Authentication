@@ -208,6 +208,41 @@ class UsersController extends Controller{
 ```
 ---
 
+### **Models** 📑
+
+#### `Role`
+
+The **Role** model for the roles table and the *BelongsToMany* relationship to the users table.
+
+```php
+class Role extends Model{
+  
+  protected $fillable = ['name'];
+
+  public function users(): BelongsToMany{
+    return $this->belongsToMany(User::class);
+  }
+}
+
+```
+---
+
+#### `User`
+
+The **User** with the *BelongsToMany* relationship to the roles table.
+
+```php
+
+class User extends Authenticatable{
+
+  public function roles(): BelongsToMany{
+    return $this->belongsToMany(Role::class);
+  }
+}
+
+```
+---
+
 
 ## Key Features ✨
 
